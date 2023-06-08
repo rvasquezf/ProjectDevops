@@ -22,6 +22,7 @@ class DevopsApplicationTests {
 
   @Test
   void testCourseIsString() throws Exception {
+	  	  
       Iterable<Student> students = repository.findAll();
       for (Student student : students) {
           assertTrue(student.getCourse() instanceof String);

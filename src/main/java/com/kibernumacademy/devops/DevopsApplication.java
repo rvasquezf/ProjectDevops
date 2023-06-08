@@ -20,8 +20,8 @@ public class DevopsApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
- Student student1 = new Student("Miguel", "Ramos", "mramoscli@gmail.com");
- Student student2 = new Student("Camila", "Marquez", "cmarquez@gmail.com");
+ Student student1 = new Student("Miguel", "Ramos", "mramoscli@gmail.com", "Curso082");
+ Student student2 = new Student("Camila", "Marquez", "cmarquez@gmail.com", "Curso083");
     repository.save(student1);
     repository.save(student2);
 

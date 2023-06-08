@@ -64,6 +64,7 @@ public class StudentController {
     studentExists.setName(student.getName());
     studentExists.setLastname(student.getLastname());
     studentExists.setEmail(student.getEmail());
+    studentExists.setCourse(student.getCourse());
 
     service.updatedStudent(studentExists);
     return "redirect:/students";
